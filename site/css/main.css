@@ -87,19 +87,57 @@ main{
 margin-left: 20%;
 margin-right: 20%;
 display: grid;
-grid-template-rows: 20% auto;
+grid-template-rows: 5% auto;
 grid-template-columns: 30% auto;
 }
 
 .rubrik{
 grid-column: span 2;
 background-color: antiquewhite;
+display: flex;
+justify-content: center;
+align-content: center;
+margin-left: 15px;
+margin-right: 15px;
 }
 
-innehåll{
+.content    {    
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 15px;
     background-color: aqua;
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+     */
+    padding-left: 10%;
+    padding-top: 5%;
+    margin-right: 5px;
+    height: 53%;
+    top: 0px;
 }
 
-texty{
-background-color: aquamarine    
+.text{
+    background-color: aquamarine;
+    grid-column: 2 / 3;    
+    margin: 15px;
+}
+
+.if{
+    margin-top: 10%;
+    display: flex;
+}
+
+.merchmain{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 
+}
+.social_links{
+    height: 200px;
+    width: 200px;
 }
