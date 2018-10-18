@@ -210,8 +210,45 @@ align-content: center;
 justify-content: center;
 margin-top: 0;
 }
+#box3{
+    background-image: url(../img/malekraddarbarniiraq.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+    
 #box2{
 background-image: url(../img/malekraddarbarniiraq.png);
 background-position: center;
 background-repeat: no-repeat;
+
 }
+
+.box2_text{
+align-content: center;
+justify-content: center;    
+display: flex;
+font-size: 125%;
+color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#box5{
+    background-image: url(../img/);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#box4{
+    background-image: url(../img/13659178_1091900234210387_2702580935942709213_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+}
+#box1{
+    background-image: url(../img/223599_414057948661289_1533762628_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+
+}
+    
