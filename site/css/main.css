@@ -18,6 +18,9 @@ body{
     color: black;
     background-color: white;
     width: 30%;
+    background-image: url(../img/malek\ logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -100,19 +103,24 @@ grid-template-columns: 30% auto;
 
 .rubrik{
 grid-column: span 2;
-background-color: antiquewhite;
+background-color: whitesmoke;
 display: flex;
 justify-content: center;
 align-content: center;
 margin-left: 15px;
 margin-right: 15px;
+border-color: black;
+border: 7px;
+border-style: outset;
+border-radius: 10%;
+
 }
 
 .content    {    
     position: -webkit-sticky;
     position: sticky;
     margin: 15px;
-    background-color: aqua;
+    background-color: whitesmoke;
     /* display: flex;
     justify-content: center;
     align-content: center;
@@ -122,12 +130,20 @@ margin-right: 15px;
     margin-right: 5px;
     height: 37%;
     top: 0px;
+    border-color: black;
+    border: 10px;
+    border-style: ridge;
+    border-radius: 10%;
 }
 
 .text{
-    background-color: aquamarine;
+    background-color: whitesmoke; 
     grid-column: 2 / 3;    
     margin: 15px;
+    border-color: black;
+    border: 10px;
+    border-style: ridge;
+    border-radius: 2%;
 }
 
 .if{
@@ -211,7 +227,7 @@ justify-content: center;
 margin-top: 0;
 }
 #box3{
-    background-image: url(../img/malekraddarbarniiraq.png);
+    background-image: url(../img/Räddar\ skorna.jpg);
     background-position: center;
     background-repeat: no-repeat;
     
