@@ -113,7 +113,7 @@ margin-right: 15px;
     padding-left: 10%;
     padding-top: 5%;
     margin-right: 5px;
-    height: 53%;
+    height: 37%;
     top: 0px;
 }
 
@@ -130,14 +130,29 @@ margin-right: 15px;
 
 .merchmain{
     height: 100vh;
-    width: 100vw;
+    
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30% 70%;
+
     padding-left: 20%;
-    padding-right: 
+    padding-right:20%;
 }
-.social_links{
-    height: 200px;
-    width: 200px;
+.head{
+    background-color: yellowgreen;
+    grid-column: 2 / 3;
+    margin: 10px;
+
+}
+
+.social{
+    background-color: beige;
+    grid-row: 1 / 3;
+    margin: 10px;
+}
+
+.kläder{
+background-color: blue;
+margin: 10px;
 }
