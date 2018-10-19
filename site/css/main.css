@@ -97,7 +97,7 @@ main{
 margin-left: 20%;
 margin-right: 20%;
 display: grid;
-grid-template-rows: 5% auto;
+grid-template-rows: 10% auto;
 grid-template-columns: 30% auto;
 }
 
