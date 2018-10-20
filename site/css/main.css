@@ -230,13 +230,15 @@ margin-top: 0;
     background-image: url(../img/Räddar\ skorna.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    
+    background-color: blanchedalmond;
+
 }
     
 #box2{
 background-image: url(../img/malekraddarbarniiraq.png);
 background-position: center;
 background-repeat: no-repeat;
+background-color: blanchedalmond;
 
 }
 
